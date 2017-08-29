@@ -5,6 +5,7 @@
     android:background="@android:color/black"
     android:fitsSystemWindows="true"
     android:gravity="center_horizontal"
+    android:id="@+id/root_view"
     android:orientation="vertical"
     tools:context="com.example.liz.trykotlin.LoginActivity">
 
