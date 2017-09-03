@@ -4,3 +4,5 @@ desc: 实现一个登录界面
 2. 向服务器提供保持登录状态的方案（可在模拟器的响应中提供）
 3. 模拟服务器响应，根据成功或失败给出相应的反馈
 4. UI风格简单
+
+(apk下载)[https://github.com/lizwangying/TryKotlin/releases/tag/1.0.0]
