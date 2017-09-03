@@ -13,6 +13,10 @@ class AmazingLoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        setAmazingBg()
+    }
+
+    fun setAmazingBg() {
         val bg = GradientAnimBackground.Builder()
                 .setAnimList(GradientAnimBackground.ANIM_GREEN_PURPLE)
                 .setDuration(4000)

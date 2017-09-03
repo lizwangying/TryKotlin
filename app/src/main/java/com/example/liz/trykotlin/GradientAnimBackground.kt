@@ -21,9 +21,10 @@ class GradientAnimBackground private constructor(private val rootView: View,
 
     private constructor(builder: Builder) :
             this(builder.view!!, builder.duration, builder.animList)
+
     fun startAnimation() {
 
-        rootView?.let {
+        rootView.let {
             it.setBackgroundResource(mAnimList)
             val background = it.background as AnimationDrawable
 
@@ -34,10 +35,9 @@ class GradientAnimBackground private constructor(private val rootView: View,
             it.post {
                 background.start()
             }
-        } ?: run {
-            throw IllegalStateException("view must be initialized")
         }
     }
+
     class Builder {
 
         var duration: Int = 4000
