@@ -13,4 +13,11 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="desc_info">
+        作者：王颖\n
+        没有使用验证码方式，由于图形验证码或者短信验证码没有验证邮箱酷，并且使用图形验证码影响界面美观\n
+        向服务器提供保持登录状态的方案：提交服务器邮箱和密码后，服务器返回一个token,本地存储，服务器控制token的过期时间等处理，用户进入APP后的保证用户的网络请求都携带token,这样用户登录状态有效时间可被服务器控制\n
+        这里注册或者登录只做了简单的格式校验\n
+        希望收到贵公司答复，谢谢啦~
+    </string>
 </resources>

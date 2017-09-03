@@ -1,6 +1,7 @@
 package com.example.liz.trykotlin
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
@@ -107,9 +108,10 @@ class AmazingLoginActivity : AppCompatActivity(), View.OnClickListener {
                 }
                 var manager: InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
                 manager.hideSoftInputFromWindow(window.decorView.windowToken, 0)
-
-
-                Snackbar.make(root_view, "注册成功", Snackbar.LENGTH_SHORT).show()
+                Snackbar.make(root_view, "成功喽~~~", Snackbar.LENGTH_SHORT).setAction("OK", View.OnClickListener {
+                    var intent: Intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                }).show()
             }
 
         }
