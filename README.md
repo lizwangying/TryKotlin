@@ -12,8 +12,4 @@
 
 feature：  
 1.背景颜色渐变动画  
-2.自动填写邮箱
-如图：
-![邮箱提示](https://github.com/lizwangying/TryKotlin/blob/TryKotlin/screenshots/devices-2017-09-04-102612.png)
-
-
+2.自动填写邮箱 
