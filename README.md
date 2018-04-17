@@ -2,8 +2,8 @@
 
 ### screenshots
 
-![image1](https://github.com/lizwangying/TryKotlin/blob/master/screen_shots/screen_shot1.png) 
-![image2](https://github.com/lizwangying/TryKotlin/blob/master/screen_shots/screen_shot2.png) 
+![image1](https://github.com/lizwangying/TryKotlin/blob/master/screenshots/screen_shot1.png) 
+![image2](https://github.com/lizwangying/TryKotlin/blob/master/screenshots/screen_shot2.png) 
 
 需求: 实现一个登录界面
 1. 使用手机号和验证码的方式实现登录
