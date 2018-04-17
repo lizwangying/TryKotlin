@@ -30,7 +30,7 @@ class EmailAutoCompleteTv(context: Context?, attrs: AttributeSet?) : AutoComplet
     override fun replaceText(text: CharSequence?) {
         var t: String = getText().toString()
         var index: Int = t.indexOf("@")
-        if (index != -1) t = t!!.substring(0, index)
+        if (index != -1) t = t.substring(0, index)
         super.replaceText(t + text)
     }
 
@@ -65,7 +65,7 @@ class EmailAutoCompleteTv(context: Context?, attrs: AttributeSet?) : AutoComplet
             //将用户输入的文本与adapter中的email后缀拼接后，在下拉框中显示
             var tv: TextView = view!!.findViewById(R.id.item_email_tv)
             tv.text = t + getItem(position)!!
-            return view!!
+            return view
         }
 
     }

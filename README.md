@@ -1,4 +1,10 @@
 # TryKotlin 
+
+### screenshots
+
+![image1](https://github.com/lizwangying/TryKotlin/blob/master/screen_shots/screen_shot1.png) 
+![image2](https://github.com/lizwangying/TryKotlin/blob/master/screen_shots/screen_shot2.png) 
+
 需求: 实现一个登录界面
 1. 使用手机号和验证码的方式实现登录
 2. 向服务器提供保持登录状态的方案（可在模拟器的响应中提供）
